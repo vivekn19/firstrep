@@ -116,7 +116,7 @@ main{
 
     .section3{
 
-       .contactform1{
+       .contactform1{   
         background-image: url("../Assets/contact-form-bg.jpg");
         background-size: cover;
         height: 613px;
@@ -126,8 +126,11 @@ main{
         align-items: center;
         text-align: center;
 
-        .container-fluid{
+        .contain{
+            position: absolute;
             text-align: center;
+            display: flex;
+            justify-content: center;
         }
 
         h2{
@@ -378,36 +381,30 @@ main{
 
         .section3{
             .contactform1{
+                     display: flex;
+                     flex-wrap: wrap;
+                     justify-content: center;
                      width: 100%;
                      text-align: center;
                      align-items: center;
-                .container-fluid{
+                     margin-left: 50%;
+                .contain{
+                    margin-left: 20vh;
+                    padding-left: 30%;
                     text-align: center;
                     align-items: center;
                     
                 }
-                
-        
-        
-         
-        
-        
-        
-                
-        
-        
-        
-                
-        
-             
-        
-                
-                
+                    
             }
         }
         
         
         .section4{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             text-align: center;
             align-items: center;
             padding-bottom: 30px;
