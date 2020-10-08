@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+header,section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Roboto-font:"Roboto";
+    --bggradient:linear-gradient(to bottom,grey,lightgrey)
+}
+
+.linerect{
+    background-color: #F97794;
+  width: 137px;
+  height: 2px;
+  
+  margin-left: 20%;
+}
+.ourservices .linerect{
+    background-color: #F97794;
+  width: 137px;
+  height: 2px;
+  
+  margin-left: 15%;
+}
+.awesomeidea .linerect{
+    background-color: #F97794;
+  width: 137px;
+  height: 2px;
+  
+  margin-left: 25%;
+}
+.ourtechstack .linerect{
+    background-color: #F97794;
+  width: 137px;
+  height: 2px;
+  
+  margin-left: 12%;
+}
+
+.ourtechstack img.techstack{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+
+/*Header*/
+.navbar a{
+    font-family: var(--Roboto);
+    font-size: .9em;
+    color: rgb(255, 255, 255);
+}
+ 
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: rosybrown;
+    color: whitesmoke;
+  }
+.navbar a:active{
+    text-decoration: underline;
+}
+header{
+    background-image: url("../assets/OCNVIH0.jpg");
+    height: 54em;
+}
+.navbar{
+    
+    font-size: 2em;
+}
+.heading{
+    padding-left: 8%;
+    padding-top: 30%;
+    
+}
+.heading h1{
+    font-size: 40px;
+}
+.btn{
+    background-color: #EE7892;
+    border-radius: 29.5px;
+    width: 156px;
+    height: 59px;
+   }
+.card{
+       
+       box-shadow: 20px,20px rgb(10, 10, 10);
+   }
+.card:hover{
+    box-shadow: palevioletred;
+}   
+.specialtitle .btn{
+    background-color: #1d0269ab;
+    border-radius: 29.5px;
+    width: 40px;
+    height: 30px;
+   }
+.section5 .btn{
+    background-color: #da255bab;
+    border-radius: 29.5px;
+    width: 40px;
+    height: 40px;
+
+}
+.ourtechstack .line1,.line2 :hover{
+    border-color: palevioletred;
+    border-width: 5px;
+}
+
+.letsconnect .linerect{
+    margin-left: 33%;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*section1*/
+
+.section1 .ourservices-title{ 
+    padding-left: 2em;
+}
+.section1 .background2 {
+    background-image: url("../assets/BG/bg-1.svg");
+    width: 100%;
+ }
+ .section3 .background3 {
+    background-image: url("../assets/BG/bg-2.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+ }
+.section3 .background4{
+    width: 100%;
+    height: 700px;
+    background-color: palevioletred;
+}
+input[type=text]{
+    
+  box-sizing: border-box;
+  border-radius:50px
+  }
+  input[type=email]{
+    
+  box-sizing: border-box;
+  border-radius:50px
+  }
+  input[type=name]{
+    
+  box-sizing: border-box;
+  border-radius:50px
+  }
+/*-----------------------------------------------------------------------------------------------------*/
+/*for tablets*/
+@media only screen and (min-width: 530px) {
+    .section3 .background4{
+        width: 100%;
+        height: 340px;
+        background-color: palevioletred;
+        }
+    .ourtechstack .techstackimg .techstackk1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .letsconnect .linerect{
+        margin-left: 40%;
+    }  
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*for Desktop*/
+@media only screen and (min-width: 768px) {
+   .heading{
+       padding-left: 10%;
+       padding-right: 5;
+       padding-top: 9%;
+       
+   }
+
+   
+   .heading h1{
+       font-size: 70px;
+   }
+   .ourtechstack {
+
+   }
+   .ourtechstack img.techstack{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    }
+
+    .section3 .background4{
+    width: 100%;
+    height: 15.7em;
+    background-color: palevioletred;
+    }
+    .ourtechstack .techstackk{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .letsconnect .please .forms{
+        padding-left: 4em;
+    }
+
+    .letsconnect .please .forms {
+        
+      box-sizing: border-box;
+      border-radius:50px
+    }
+    .letsconnect .linerect{
+        margin-left: 45%;
+    }  
+    footer .card .special{padding-left: 5em;}
+
+  }
+/*-----------------------------------------------------------------------------------------------------*/
