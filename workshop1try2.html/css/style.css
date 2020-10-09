@@ -1,0 +1,519 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.searchbar{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 600px) {
+.container{
+  width: 100%;
+  height: auto;
+  align-self: center;
+  padding-left: 2em;
+  font-style: normal;
+  font-family: 'Avenir' Black, Helvetica, sans-serif;
+}
+p{
+  font-weight: 200;
+}
+a{
+  text-decoration: none;
+  color: #201e1ea4;
+}
+ 
+a:hover{
+  color: rgb(85, 211, 113);
+}
+.rectangle1{
+    background-color: rgb(248, 248, 248);
+  width: 1440px;
+  height: 650px;
+
+}
+.rectangle1 .buttons button{
+
+  width: 209px;
+  height: 52px;
+  background-color: #00D09C;
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  
+  }
+.rectangle1 .rectanglea{
+    background-color: #E4FAF4;
+  width: 1440px;
+  height: 30px;
+}
+.rectanglea
+{
+    display: flex;
+    
+}
+.small_rect{
+  padding-top: 6px;
+  padding-left: 70%;
+  padding-right: 8px;
+}
+.downloadapp{
+  padding-top: 4px;
+}
+.line {
+  border: 1px solid #222222;
+  opacity: 0.1;
+  margin-right: .9em;
+  margin-left: .9em;
+}
+.form1{
+  padding-top: 4px;
+}
+
+.about{
+    width: 80%;
+    
+}
+.rectangle1 .trial1{
+    text-align: left;
+    width: 30%;
+    height: 338px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    bottom: auto;
+    right: auto;
+}
+.imagebanner{
+    width: 45%;
+    height: 400px;
+    padding-top: 6em;
+   /* padding-left: 800px;*/
+   position: absolute;
+   top: 12.5%;
+   left: 45%;
+}
+
+ .imagebanner img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+/*----------------*/
+.rectanglec {
+    background-color: #E4FAF4;
+  box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+  width: 1440px;
+  height: 190px;
+  
+}
+.rectanglec .trusted{
+  padding-top: .2em;
+  padding-left: 1em;
+  width: 25%;
+    color: #222222;
+  font-family: Futura;
+  text-align: left; 
+  
+}
+
+
+.trusted h5{
+  font-weight: 400;
+  font-size: 25px;
+  
+line-height: 30px;margin-bottom: 0%;
+}
+.trusted p{
+  font-weight: 100;
+  font-size: 15px;
+  
+  line-height: 20px;
+}
+
+
+.rectanglec .stamps1{
+  position: absolute; 
+  top: 700px;
+  left: 980px;
+  
+  }
+  .rectanglec .stamps2{
+    position: absolute; 
+    top: 700px;
+    left: 1080px;
+    
+    }
+.rectanglec .stamps3{
+  position: absolute; 
+  top: 700px;
+  left: 1180px;
+      
+ }
+  
+
+/*rectangle1*/
+
+
+.rectangle2{
+  background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 791px;
+
+}
+.buttons3{display: flex;}
+.rectangle2 .buttons3 .knowmore{
+
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #00D09C;
+  color: rgb(255, 255, 255);
+  box-shadow: none;
+  border: none;
+  text-decoration: none;
+  
+  }
+ .rectangle2 .buttons3 .watchvid{
+  padding-left: 15px;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+    color:  #00D09C;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    
+    
+  }
+  .rectangle2 .buttons3 .playbutton{padding-top: .7em;}
+  .rectangle2 .buttons3 .playbutton{
+    
+    border-radius: 5px;
+    background-color: rgb(252, 252, 252);
+  
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    
+  }
+.yoga{
+  position: relative;
+  top: 130px;
+  width: 627px;
+  height: 470px;
+  padding-left: 2em;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+.rectangle2 .yoga img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+.listedabout{
+  width: 40%;
+  height: 791px;
+  padding: 0%;
+  margin: 0%;
+  position: absolute;
+  top: 1071px;
+  left: 818px;
+}
+.listedabout ul{
+  line-height: 28px;
+  padding-bottom: 2.5em;
+}
+
+
+
+
+
+/*rectangle2*/
+
+
+.rectangle3 {
+    background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%);
+    width: 1440px;
+    height: 850px;
+  }
+  .asktheexpert{
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .schedule{
+    font-size: 15px;
+  
+  }
+  .schedule p{
+    font-weight: 50;
+  }
+
+  .expert{
+    height: 550px;
+    padding-right: 2em;
+    position: absolute;
+    top: 1753px;
+    left: 780px;
+    width: 40%
+    
+  }
+  .expert img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    
+  }
+ 
+  .textrectangle{
+    position: absolute;
+    top: 1753px;
+    left: 200px;
+    width: 400px;
+    height: 500px;
+   
+    
+  }
+
+  .textrectangle .headlines{
+    padding-left: 10px;
+  }
+  .textrectangle .leftrectangle{
+    position: relative;
+    top: 50px;
+    width: 180px;;
+    height: 50px;
+    
+    
+  }
+  .textrectangle .leftrectangle p{
+    font-weight: 50;
+    font-size: 13px;
+  padding-bottom: 2em;} 
+  .textrectangle .rightrectangle p{
+    font-size: 13px;font-weight: 50;
+    padding-bottom: 2em;}
+  .textrectangle .leftrectangle h3{
+    font-size: 16px;} 
+  .textrectangle .rightrectangle h3{
+    font-size: 18px;}
+  
+  .textrectangle .rightrectangle{
+    position: relative;
+    top: 0px;
+    left: 200px;
+    
+    width: 180px;
+    height: 100px;
+    
+  }
+  
+
+/*rectangle3*/
+
+
+.rectangle4 {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%);
+    width: 96%;
+    height: 498px;
+    object-position: center;
+    text-align: center;
+  }
+  .downloadimg{
+    
+    display: flex;
+  }
+  .appdownload{
+    position: absolute;
+    top: 2828px;
+    left:553px;
+  }
+  .messageimage{
+    position: absolute;
+    top: 2830px;
+    left: 1249px;
+  }
+  .downloadapps{
+    position: absolute;
+    top: 2750px;
+    left:620px;
+  }
+  .headlines{
+    width: 600px;
+    position: absolute;
+    top: 2550px;
+    left:430px;
+    color: #222222;
+  font-family: FuturaBT;
+  font-size: 25px;
+  line-height: 35.96px;
+  text-align: center;
+  }
+  .nowyou{
+    position: absolute;
+    top: 2650px;
+    left:514px;
+    color: #222222;
+  font-family: Avenir;
+  font-size: 17px;
+  line-height: 29px;
+  opacity: 0.699999988079071;
+  width: 414px;
+  text-align: center;
+  }
+/*rectangle4*/
+
+
+.footer {
+  background-color: rgb(241, 241, 241);
+    width: 96%;
+    height: 397px;
+  }
+  .footer .logo{
+    width: 235px;
+    height: 235px;
+    padding-top: 2em;
+    padding-left: 2em;
+
+  }
+  .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  
+  
+  .logo img{
+    position: relative;
+  }
+  .footer .logo h4{
+    position: absolute;
+    top: 3157px;
+    left: 3.5em;
+    color: #222222;
+  font-family: Futura;
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 39px;
+  text-align: left;
+  }
+
+  .footer .quicklinks{
+    position: absolute;
+    left: 600px;
+    top: 3065px;
+    bottom: 2em;
+    height: 25%;
+    width: 20%;
+    
+  }
+  .topfundhouses{
+    position: absolute;
+    left: 800px;
+    top: 3065px;
+    height: 25%;
+    width: 20%;
+   
+  }
+  .Resources{
+    position: absolute;
+    left: 1000px;
+    top: 3065px;
+    height: 25%;
+    width: 15%;
+    padding-right: 0%;
+    margin-right: 0%;
+  }
+  .Resources .imah{
+    padding-left: 2.5em;
+  }
+  .imah img{
+    width: 1.5em;
+    height: 1.5em;
+    padding-right: 7px;
+  }
+  .footline{
+    width: 95%;
+    position: absolute;
+    top: 3330px;
+    background-color: rgb(226, 228, 228);
+    border-radius: 8px;
+    display: flex;
+  }
+  .quicklinks ul{
+    list-style-type: none;
+    line-height: 20px;
+  }
+  .topfundhouses ul{
+    list-style-type: none;
+    line-height: 20px;
+  }
+  .Resources ul{
+    list-style-type: none;
+    line-height: 25px;
+  }
+
+ /* .footline h6{
+    padding-right: 80em;
+    padding-left: 10em;
+  }*/
+  .footline img{padding-left: .5em;
+  padding-right: .5em;}
+  .footline .footlinetext{
+    width: 45%;
+    height: 40px;
+    padding-right: 12em;
+    padding-left: 10%; 
+    
+    padding-bottom: 1em;
+  }
+/*footer*/
+}
